@@ -26,7 +26,11 @@ function currentLine(katzDeliLine){
   } else {
     var string = 'The line is currently: ';
     for (var i = 0; i < katzDeliLine.length; i++){
+<<<<<<< HEAD
       string+=`${i+1}. ${katzDeliLine[i]}`;
+=======
+      string+=` ${i+1}. ${katzDeliLine[i]}`;
+>>>>>>> 5a77f0367ae0f667e0b8dafc552011ae237ca8db
       if(i < katzDeliLine.length-1){
         string+= `, `
       }
